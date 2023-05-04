@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mi primera web</title>
+</head>
+
+<body>
+	<!--Encabezado-->
+	<h1>Mi primera web</h1>
+
+	<!--Menú-->
+	<ul>
+		<li><a href="index.html">Inicio</a></li>
+		<li><a href="contenido.html">Contenido</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</ul>
+	<hr>
+	<h2>Contacto</h2>
+	<form>
+		<p>
+			<label for="nombre">Nombre</label>
+			<input type="text" name="nombre">
+		</p>
+		<p>
+			<label for="biografia">Biografía</label>
+			<textarea name="biografia" id=" biografia" cols="30" rows="10"></textarea>
+		</p>
+		<p>
+			<label for="edad">Edad</label>
+			<select name="edad" id="edad">
+				<option value="edad1">Mayor de edad</option>
+				<option value="edad2">Adulto</option>
+				<option value="edad3">Mayor de 65 años</option>
+			</select>
+		</p>
+		<input type="submit" value="Enviar datos">
+	</form>
+</body>
+
+</html>
