@@ -1,0 +1,57 @@
+*{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul li{
+	font-size: 22px;
+}
+
+ul li:first-child{
+	color: purple;
+	font-weight: bold;
+}
+
+ul li:nth-child(2){
+	color: orange;
+	font-weight: bold;
+}
+
+ul li:last-child{
+	color: gray;
+	font-weight: bold;
+}
+
+#mi-enlace{
+	font-size: 30px;
+	color: lightsalmon;
+}
+
+#mi-enlace:link{
+	font-size: 30px;
+	color: peru;
+}
+
+#mi-enlace:visited{
+	font-size: 30px;
+	color: blue;
+}
+
+#mi-enlace:hover{
+	font-size: 30px;
+	color: rgb(255, 0, 157);
+}
+
+#mi-enlace:active{
+	font-size: 30px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgb(102, 255, 0);
+}
+
+input[type="text"]{
+	margin-top: 20px;
+	padding: 10px;
+}
+
+input[type="text"]:focus{
+	border: 4px dashed cadetblue;
+}
